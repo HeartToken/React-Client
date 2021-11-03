@@ -1,0 +1,6 @@
+.SectionHeader {
+  // Add bottom margin if element below
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
