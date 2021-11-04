@@ -24,16 +24,16 @@ function HeroSection(props) {
         <CarouselSection
           items={[
             {
-              image: "http://source.unsplash.com/7v_lSDRaOO0/1200x600",
-              caption: "Caption for the first image",
+              image: "https://www.teahub.io/photos/full/366-3666848_back-ground-image-nature.jpg",
+             
             },
             {
-              image: "http://source.unsplash.com/PvCO2IXlXBs/1200x600",
-              caption: "Caption for the second image",
+              image: "https://www.teahub.io/photos/full/2-29565_nature-wallpaper-hd-for-tablet-photography-of-download.jpg",
+              
             },
             {
-              image: "http://source.unsplash.com/A-wumu2cs0o/1200x600",
-              caption: "Caption for the third image",
+              image: "https://i.pinimg.com/originals/73/9d/94/739d941e9feb6aede4c986981f4c10f7.jpg",
+              
             },
           ]}
         />

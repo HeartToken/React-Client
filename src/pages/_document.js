@@ -1,5 +1,6 @@
 import React from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import { DEFAULT_THEME, getThemeVariables } from '@magiclabs/ui';
 
 export default class MyDocument extends Document {
   render() {
@@ -7,6 +8,10 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link href="/favicon.ico" rel="shortcut icon" />
+          <style
+            type='text/css'
+            dangerouslySetInnerHTML={{ __html: getThemeVariables(DEFAULT_THEME).toCSS() }}
+          />
 
           {/* Uncomment to add favicons for other platforms */}
           {/* These files can be generated with realfavicongenerator.net */}
